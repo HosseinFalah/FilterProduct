@@ -19,7 +19,7 @@ body {
   color: #1d4ed8;
 }
 .header__search--box {
-  width: 100%;
+  width: 18rem;
   margin: 0 auto;
   border: none;
   outline: none;
