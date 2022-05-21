@@ -1,0 +1,7 @@
+@mixin ButtonStyle($background, $color, $padding, $rounded) {
+    background: $background;
+    color: $color;
+    padding: $padding;
+    border-radius: $rounded;
+    text-decoration: none;
+}

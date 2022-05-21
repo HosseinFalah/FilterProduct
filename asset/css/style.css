@@ -1,0 +1,99 @@
+body {
+  font-family: "Vazir";
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 170px;
+  background-color: #eaeaea;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 10;
+  padding-bottom: 1rem;
+}
+.header__title {
+  color: #1d4ed8;
+}
+.header__search--box {
+  width: 100%;
+  margin: 0 auto;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-weight: lighter;
+  transition: all 0.6s ease-in-out;
+  margin-bottom: 15px;
+}
+.header__search--box:focus {
+  outline: 2px solid #1d4ed8;
+}
+
+.filter-box {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.filter__item {
+  background: #ffd19c;
+  color: #ea770c;
+  padding: 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+.filter__item:hover {
+  background: #ea770c;
+  color: #eeeeee;
+  padding: 15px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.filter__item:active {
+  box-shadow: 0px 0px 7px 3px #c47111;
+}
+
+.products {
+  margin-top: 20px;
+}
+.products__center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-column-gap: 3rem;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  background: #fff;
+  padding-bottom: 1rem;
+}
+.product__img {
+  display: block;
+  width: 100%;
+  min-height: 12rem;
+  border-radius: 8px 8px 0 0;
+}
+.product__desc {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.product__price {
+  color: #15803d;
+}
+
+/*# sourceMappingURL=style.css.map */
