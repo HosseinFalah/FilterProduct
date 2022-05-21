@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch": "sass --watch asset/scss/style.scss:asset/css/style.css"
+    "watch": "sass --watch asset/scss/style.scss:asset/css/style.css",
+    "server" : "json-server --watch db.json"
   },
   "repository": {
     "type": "git",
