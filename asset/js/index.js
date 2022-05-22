@@ -1,3 +1,5 @@
+import env from "./env";
+
 const searchData = document.querySelector("#search");
 const allProducts = document.querySelector(".products__center");
 const btns = document.querySelectorAll(".btn")
@@ -9,7 +11,7 @@ const filters = {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    axios.get("http://localhost:3000/items")
+    axios.get(env.getApiUrl())
         .then(response => {
             allProductsData = response.data
             // render products on DOM:
